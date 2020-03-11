@@ -14,6 +14,7 @@ pip install dict-values-paths
 
 ```python
 # - Example:
+import AllDictData
 #json_string as below:
 {
 	  	"SuperMarket": {
