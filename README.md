@@ -72,10 +72,12 @@ import AllDictData
 
 # - How to use function "getDictPaths" and "getDictValues"
 	dictData=json.loads(json_string)
-	dictKeys=GetDictAllPaths()
+	dictKeys=AllDictData()
 	keyList=dictKeys.getDictPaths(dictData)
 	valueList=dictKeys.getDictValues(dictData)
-
+	print(keyList)
+	print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+	print("valueList")
 
 # - Console display
 [['SuperMarket', 'Fruit', '0', 'Name'], ['SuperMarket', 'Fruit', '0', 'Manufactured']
