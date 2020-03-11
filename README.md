@@ -14,8 +14,9 @@ pip install dict-values-paths
 
 ```python
 # - Example:
-import AllDictData
+from GetDictAllPaths import AllDictData
 #json_string as below:
+json_string='''
 {
 	  	"SuperMarket": {
 		    "Fruit": [
@@ -68,7 +69,7 @@ import AllDictData
 		    }
 	  	}
 	}
-
+'''
 
 # - How to use function "getDictPaths" and "getDictValues"
 	dictData=json.loads(json_string)
