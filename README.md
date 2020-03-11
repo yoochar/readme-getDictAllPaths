@@ -1,4 +1,4 @@
-#  AllDictData Library
+#  GetDictAllPaths Library
 
 python library - To get all paths and values of dictionary
 
